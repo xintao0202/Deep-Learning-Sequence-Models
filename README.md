@@ -7,3 +7,6 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 
 1.2 Gated Recurrent Unit (GRU)
 -  when Gamma_u =0 (gate=0), C<t> is only dependent on C<t-1>, means don't update, thus it doesn't suffer from much of a vanishing gradient problem
+
+1.3 Logistic Regression with a Neural Network mindset project
+  - [Building_a_Recurrent_Neural_Network_Step_by_Step Link](Building_a_Recurrent_Neural_Network_Step_by_Step_v3a.ipynb)
