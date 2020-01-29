@@ -16,4 +16,4 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  
 1.5 Improvise a Jazz Solo with an LSTM Network Project
  - [Improvise_a_Jazz_Solo_with_an_LSTM_Network](Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3a.ipynb)
- - [Generated Musci] (my_music)
+ - [Generated Musci] (my_music.midi)
