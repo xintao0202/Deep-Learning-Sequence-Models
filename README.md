@@ -10,3 +10,8 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 
 1.3 Logistic Regression with a Neural Network mindset project
   - [Building_a_Recurrent_Neural_Network_Step_by_Step Link](Building_a_Recurrent_Neural_Network_Step_by_Step_v3a.ipynb)
+
+1.4 Dinosaurus Land Character Level Language Model Project
+ - [Dinosaurus Land Character Level Language Model] (Dinosaurus_Island_Character_level_language_model_final_v3a.ipynb)
+ 
+1.5 
