@@ -14,4 +14,6 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 1.4 Dinosaurus Land Character Level Language Model Project
  - [Dinosaurus Land Character Level Language Model] (Dinosaurus_Island_Character_level_language_model_final_v3a.ipynb)
  
-1.5 
+1.5 Improvise a Jazz Solo with an LSTM Network Project
+ - [Improvise_a_Jazz_Solo_with_an_LSTM_Network] (Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3a.ipynb)
+ - [Generated Music] (my_music)
