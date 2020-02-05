@@ -31,8 +31,8 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  - target and context are chosen from training set so that they are nearby words
  - Skip-grams: Theta_t and ec are the same dimensions; they are both trained with an optimization algorithm such as Adam or gradient descent.
  
- 2.4 Learning word embeddings - Gove
- 	- Thetai and ej should be initialized randomly at the beginning of training
-	- Xij is the number of times word I appears in the context of word j
-	- The weighting function f(.) must satisfy f(0)=0; The weighting function helps prevent learning only from extremely common word pairs.
+ 2.4 Learning word embeddings - Glove
+ - Thetai and ej should be initialized randomly at the beginning of training
+ - Xij is the number of times word I appears in the context of word j
+ - The weighting function f(.) must satisfy f(0)=0; The weighting function helps prevent learning only from extremely common word pairs.
   - Using word embeddings is a form of transfer learning, trained word embeddings should >= separate labeled dataset for your task
