@@ -17,3 +17,22 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 1.5 Improvise a Jazz Solo with an LSTM Network Project
  - [Improvise_a_Jazz_Solo_with_an_LSTM_Network](Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3a.ipynb)
  - [Generated Musci] (my_music.midi)
+
+2.1 Embedding Vector
+ -  The dimension of embedding word vectors is usually smaller than the size of the vocabulary. Most common sizes for word vectors ranges between 50 and 400
+ - 	T-SNE: t-distributed stochastic neighbor embedding , is a non-linear dimensionality reduction technique
+ -  The word vectors empower your model with an incredible ability to generalize. 
+ 
+ 2.2 Embedding Matrix
+ - Usually we dont' use E*O1234 because it is computationally wasteful. The elemen-wise multiplication will be extremely inefficient.
+ 
+ 2.3 Learning word embeddings - Word2vec  
+ - When learning word embeddings, we create an artificial task of estimating P(target | context). It is okay if we do poorly on this artificial prediction task; the more important by-product of this task is that we learn a useful set of word embeddings. 
+ - target and context are chosen from training set so that they are nearby words
+ - Skip-grams: Theta_t and ec are the same dimensions; they are both trained with an optimization algorithm such as Adam or gradient descent.
+ 
+ 2.4 Learning word embeddings - Gove
+ 	- Thetai and ej should be initialized randomly at the beginning of training
+	- Xij is the number of times word I appears in the context of word j
+	- The weighting function f(.) must satisfy f(0)=0; The weighting function helps prevent learning only from extremely common word pairs.
+  - Using word embeddings is a form of transfer learning, trained word embeddings should >= separate labeled dataset for your task
