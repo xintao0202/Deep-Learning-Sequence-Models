@@ -36,3 +36,7 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  - Xij is the number of times word I appears in the context of word j
  - The weighting function f(.) must satisfy f(0)=0; The weighting function helps prevent learning only from extremely common word pairs.
   - Using word embeddings is a form of transfer learning, trained word embeddings should >= separate labeled dataset for your task
+
+2.5 Operations on word vectors Project
+ - [Operations on word vectors](Operations_on_word_vectors_v2a.ipynb)
+ 
