@@ -40,3 +40,5 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 2.5 Operations on word vectors Project
  - [Operations on word vectors](Operations_on_word_vectors_v2a.ipynb)
  
+2.6 Emojify Project
+ - [Emojify Project Link](Emojify_v2a.ipynb)
