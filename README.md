@@ -44,6 +44,6 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  - [Emojify Project Link](Emojify_v2a.ipynb)
 
 3.1 Basic Models
- 	- Machine translation can be considered as a "conditional language model", the condition is a input sentence to be translated. 
-	- The job of green portion (encoder) is to find an encoding of the input sentence (some representation of the input rather than all zeros in language model). The decoder network's job is to generate the corresponding translation.
-  - The purple (decoder network) looks identical to the language model that predict the probability of the input sentence.
+ - Machine translation can be considered as a "conditional language model", the condition is a input sentence to be translated. 
+ - The job of green portion (encoder) is to find an encoding of the input sentence (some representation of the input rather than all zeros in language model). The decoder network's job is to generate the corresponding translation.
+ - The purple (decoder network) looks identical to the language model that predict the probability of the input sentence.
