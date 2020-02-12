@@ -53,3 +53,9 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  - Beam search will use up more memory
  - Beam search will generally find better solution (i.e. do a better job maximizing P(y|x))
  - If we carry out beam search without using sentence normalization, the algorithm will tend to output overly short translations.
+
+3.3 Attention Model
+ - We expect α<t,t'> to be generally larger for values of α<t'> that are highly relevant to the value of network should output for y<t>
+ - Sum  over t' of α=1
+ - The network learns where to “pay attention” by learning the values e<t,t′>, which are computed using a small neural network: We can't replace s^{<t-1>} with s^{<t>} as an input to this neural network. This is because s^{<t>} depends on α<t,t′> which in turn depends on e<t,t′>; so at the time we need to evalute this network, we haven’t computed s^{<t>} yet.
+ - Attention modl has the greatest advantage when the input sequence lenght Tx is large
