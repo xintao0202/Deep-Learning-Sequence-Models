@@ -59,3 +59,6 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  - Sum  over t' of α=1
  - The network learns where to “pay attention” by learning the values e<t,t′>, which are computed using a small neural network: We can't replace s^{<t-1>} with s^{<t>} as an input to this neural network. This is because s^{<t>} depends on α<t,t′> which in turn depends on e<t,t′>; so at the time we need to evalute this network, we haven’t computed s^{<t>} yet.
  - Attention modl has the greatest advantage when the input sequence lenght Tx is large
+
+3.4 Neural Machine Translation with Attention Project
+ - [Neural Machine Translation with Attention Project Link](Neural_machine_translation_with_attention_v4a.ipynb)
