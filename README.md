@@ -62,3 +62,6 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
 
 3.4 Neural Machine Translation with Attention Project
  - [Neural Machine Translation with Attention Project Link](Neural_machine_translation_with_attention_v4a.ipynb)
+ 
+3.5 Trigger Word Detection Project
+ - [Trigger Word Detection Project Link](Trigger_word_detection_v1a.zip)
