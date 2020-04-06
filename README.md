@@ -24,7 +24,7 @@ Course Webiste https://www.coursera.org/learn/nlp-sequence-models/home/welcome
  -  The word vectors empower your model with an incredible ability to generalize. 
  
  2.2 Embedding Matrix
- - Usually we dont' use E*O1234 because it is computationally wasteful. The elemen-wise multiplication will be extremely inefficient.
+ - Usually we dont' use E * O1234 because it is computationally wasteful. The elemen-wise multiplication will be extremely inefficient. E * O1234 wind up to be selecting out this 300-dimensional column correspoinding to the word in embedding matrix
  
  2.3 Learning word embeddings - Word2vec  
  - When learning word embeddings, we create an artificial task of estimating P(target | context). It is okay if we do poorly on this artificial prediction task; the more important by-product of this task is that we learn a useful set of word embeddings. 
